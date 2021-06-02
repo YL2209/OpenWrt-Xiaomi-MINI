@@ -39,7 +39,7 @@ rm -rf package/libs/libnetfilter-queue
 git clone https://github.com/YL2209/luci-theme-argon_armygreen.git package/lean/luci-theme-argon_armygreen
 #git clone https://github.com/YL2209/luci-theme-infinityfreedom.git package/lean/luci-theme-infinityfreedom
 #git clone https://github.com/YL2209/luci-app-privoxy.git package/lean/luci-app-privoxy
-#git clone -b dev https://github.com/CHN-beta/xmurp-ua.git package/xmurp-ua
+git clone -b dev https://github.com/CHN-beta/xmurp-ua.git package/xmurp-ua
 git clone https://github.com/Zxilly/UA2F.git package/UA2F
 git clone https://github.com/openwrt/packages/tree/master/libs/libnetfilter-queue package/libs/libnetfilter-queue
 
