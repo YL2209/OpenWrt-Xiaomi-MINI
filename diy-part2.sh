@@ -31,7 +31,7 @@ rm -rf package/lean/luci-theme-argon
 rm -rf package/lean/luci-theme-bootstrap
 rm -rf package/lean/luci-theme-material
 rm -rf package/lean/luci-theme-netgear
-#rm -rf package/lean/luci-app-privoxy
+rm -rf package/libs/libnetfilter-queue
 
 #下载主题luci-theme-argon
 #git clone https://github.com/jerrykuku/luci-theme-argon.git package/lean/luci-theme-argon
@@ -41,6 +41,7 @@ git clone https://github.com/YL2209/luci-theme-argon_armygreen.git package/lean/
 #git clone https://github.com/YL2209/luci-app-privoxy.git package/lean/luci-app-privoxy
 #git clone -b dev https://github.com/CHN-beta/xmurp-ua.git package/xmurp-ua
 git clone https://github.com/Zxilly/UA2F.git package/UA2F
+git clone https://github.com/openwrt/packages/tree/master/libs/libnetfilter-queue package/libs/libnetfilter-queue
 
 # 修改luci-theme-argon_armygreen主题渐变色，16进制RGB
 #登录页面背景颜色 透明值
