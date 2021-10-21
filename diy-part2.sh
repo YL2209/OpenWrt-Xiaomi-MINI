@@ -19,7 +19,7 @@ sed -i '/uci commit system/i\uci set system.@system[0].hostname='XXKDB'' package
 
 # 版本号里显示一个自己的名字（ababwnq build $(TZ=UTC-8 date "+%Y.%m.%d") @ 这些都是后增加的）
 #sed -i "s/OpenWrt /ababwnq build $(TZ=UTC-8 date "+%Y.%m.%d") @ OpenWrt /g" package/lean/default-settings/files/zzz-default-settings
-sed -i "s/OpenWrt /ababwnq build $(TZ=UTC-8 date "+%Y.%m.%d") @ 星新课代表 /g" package/lean/default-settings/files/zzz-default-settings
+sed -i "s/OpenWrt /星新课代表 $(TZ=UTC-8 date "+%Y.%m.%d") /g" package/lean/default-settings/files/zzz-default-settings
 #更改主机型号，支持中文。 
 sed -i "s/Xiaomi MiWiFi Mini/星 新 课 代 表 制 作 出 品/g" target/linux/ramips/dts/mt7620a_xiaomi_miwifi-mini.dts
 
